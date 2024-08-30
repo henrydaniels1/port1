@@ -6,7 +6,7 @@ import Skills from './Skills';
 import Contact from './Contact';
 import a1 from '../assets/a10.jpg';
 import a2 from '../assets/a4.jpg';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+// import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
 
 export default function LandingPage() {
@@ -77,13 +77,13 @@ export default function LandingPage() {
           transition={{ duration: 1, delay: 1 }}
         >
           <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <FaGithub className="text-4xl hover:text-gray-300 transition" />
+            {/* <FaGithub className="text-4xl hover:text-gray-300 transition" /> */}
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-4xl hover:text-gray-300 transition" />
+            {/* <FaLinkedin className="text-4xl hover:text-gray-300 transition" /> */}
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="text-4xl hover:text-gray-300 transition" />
+            {/* <FaTwitter className="text-4xl hover:text-gray-300 transition" /> */}
           </a>
         </motion.div>
 
